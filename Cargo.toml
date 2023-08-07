@@ -7,3 +7,30 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+
+[[bin]]
+name = "enums"
+
+[[bin]]
+name = "fibonacci"
+
+[[bin]]
+name = "guessing_game"
+
+[[bin]]
+name = "matches"
+
+[[bin]]
+name = "rectangles"
+
+[[bin]]
+name = "slices"
+
+[[bin]]
+name = "temperature_converter"
+
+[[bin]]
+name = "variables"
+
+[[bin]]
+name = "vectors"
