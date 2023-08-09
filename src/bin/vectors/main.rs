@@ -5,7 +5,7 @@ fn main() {
 
     v.sort();
 
-    println!("The median is {}", &v[((v.len() / 2) as f32).floor() as usize]);
+    println!("The median is {}", &v[v.len() / 2]);
 
     let mut counts = HashMap::new();
 
